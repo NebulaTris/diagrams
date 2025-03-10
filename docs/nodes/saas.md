@@ -3,7 +3,7 @@ id: saas
 title: Saas
 ---
 
-Node classes list of saas provider.
+Node classes list of the saas provider.
 
 ## saas.alerting
 
@@ -34,6 +34,12 @@ Node classes list of saas provider.
 
 <img width="30" src="/img/resources/saas/analytics/stitch.png" alt="Stitch" style="float: left; padding-right: 5px;" >
 **diagrams.saas.analytics.Stitch**
+
+## saas.automation
+
+
+<img width="30" src="/img/resources/saas/automation/n8n.png" alt="N8N" style="float: left; padding-right: 5px;" >
+**diagrams.saas.automation.N8N**
 
 ## saas.cdn
 
@@ -80,6 +86,15 @@ Node classes list of saas provider.
 <img width="30" src="/img/resources/saas/communication/twilio.png" alt="Twilio" style="float: left; padding-right: 5px;" >
 **diagrams.saas.communication.Twilio**
 
+## saas.crm
+
+
+<img width="30" src="/img/resources/saas/crm/intercom.png" alt="Intercom" style="float: left; padding-right: 5px;" >
+**diagrams.saas.crm.Intercom**
+
+<img width="30" src="/img/resources/saas/crm/zendesk.png" alt="Zendesk" style="float: left; padding-right: 5px;" >
+**diagrams.saas.crm.Zendesk**
+
 ## saas.filesharing
 
 
@@ -118,6 +133,15 @@ Node classes list of saas provider.
 
 <img width="30" src="/img/resources/saas/recommendation/recombee.png" alt="Recombee" style="float: left; padding-right: 5px;" >
 **diagrams.saas.recommendation.Recombee**
+
+## saas.security
+
+
+<img width="30" src="/img/resources/saas/security/crowdstrike.png" alt="Crowdstrike" style="float: left; padding-right: 5px;" >
+**diagrams.saas.security.Crowdstrike**
+
+<img width="30" src="/img/resources/saas/security/sonarqube.png" alt="Sonarqube" style="float: left; padding-right: 5px;" >
+**diagrams.saas.security.Sonarqube**
 
 ## saas.social
 

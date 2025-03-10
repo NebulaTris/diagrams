@@ -170,7 +170,7 @@ with Diagram("Stateful Architecture", show=False):
 
 ![stateful architecture diagram](/img/stateful_architecture_diagram.png)
 
-## Advanced Web Service with On-Premise
+## Advanced Web Service with On-Premises
 
 ```python
 from diagrams import Cluster, Diagram
@@ -183,7 +183,7 @@ from diagrams.onprem.monitoring import Grafana, Prometheus
 from diagrams.onprem.network import Nginx
 from diagrams.onprem.queue import Kafka
 
-with Diagram("Advanced Web Service with On-Premise", show=False):
+with Diagram("Advanced Web Service with On-Premises", show=False):
     ingress = Nginx("ingress")
 
     metrics = Prometheus("metric")
@@ -211,9 +211,9 @@ with Diagram("Advanced Web Service with On-Premise", show=False):
     ingress >> grpcsvc >> aggregator
 ```
 
-![advanced web service with on-premise diagram](/img/advanced_web_service_with_on-premise.png)
+![advanced web service with on-premises diagram](/img/advanced_web_service_with_on-premises.png)
 
-## Advanced Web Service with On-Premise (with colors and labels)
+## Advanced Web Service with On-Premises (with colors and labels)
 
 ```python
 from diagrams import Cluster, Diagram, Edge
@@ -226,7 +226,7 @@ from diagrams.onprem.monitoring import Grafana, Prometheus
 from diagrams.onprem.network import Nginx
 from diagrams.onprem.queue import Kafka
 
-with Diagram(name="Advanced Web Service with On-Premise (colored)", show=False):
+with Diagram(name="Advanced Web Service with On-Premises (colored)", show=False):
     ingress = Nginx("ingress")
 
     metrics = Prometheus("metric")
@@ -254,7 +254,7 @@ with Diagram(name="Advanced Web Service with On-Premise (colored)", show=False):
     ingress >> Edge(color="darkgreen") << grpcsvc >> Edge(color="darkorange") >> aggregator
 ```
 
-![advanced web service with on-premise diagram colored](/img/advanced_web_service_with_on-premise_colored.png)
+![advanced web service with on-premises diagram colored](/img/advanced_web_service_with_on-premises_colored.png)
 
 ## RabbitMQ Consumers with Custom Nodes
 
